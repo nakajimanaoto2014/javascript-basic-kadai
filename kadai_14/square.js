@@ -1,5 +1,5 @@
 const tokyo = (price) => {
-  console.log(price * price);
+ return price * price;
 }
 
-tokyo(10);
+console.log(tokyo(10));
